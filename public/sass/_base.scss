@@ -1,0 +1,29 @@
+/* base styles */
+html {
+	font-size: 10px;
+	height: 100%;
+}
+
+body {
+	color: $color-text-primary;	
+	font-family: $font-sans-serif;
+	line-height: 1.2;
+	
+	&.dashboard-body {
+		display: flex;
+		flex-direction: column;		
+		height: 100%;
+	}
+}
+
+a {
+	border-bottom: $border-secondary;
+	color: $color-link-primary;
+	display: inline-block;
+	padding-bottom: 0.3rem;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}

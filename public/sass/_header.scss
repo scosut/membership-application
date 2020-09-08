@@ -1,0 +1,17 @@
+/* header styles */
+#header {
+	background: linear-gradient(to bottom, rgba($color-text-primary, 0.6), rgba($color-text-primary, 0.6)), url(/public/img/college.jpg) center center/cover no-repeat;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	overflow: hidden;
+	
+	&.secondary {
+		background-image: linear-gradient(to bottom, rgba($color-text-primary, 0.6), rgba($color-text-primary, 0.6)), url(/public/img/college_cropped.jpg);
+		min-height: 24rem;
+		
+		@include atSmall {
+			min-height: 14rem;
+		}
+	}
+}

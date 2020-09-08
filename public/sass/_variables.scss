@@ -1,0 +1,18 @@
+$color-text-primary: #333;
+$color-text-secondary: #70ad47;
+$color-text-disabled: #bbb;
+$color-link-primary: #61953d;
+$color-background-primary: #f2f2f2;
+$color-background-alternate-row: #fafafa;
+$color-border-dashboard: #d9d9d9;
+
+$border-primary: 0.1rem solid $color-background-primary;
+$border-secondary: 0.1rem solid $color-link-primary;
+$border-tertiary: 0.1rem solid $color-border-dashboard;
+$border-transparent: 0.1rem solid transparent;
+
+$font-sans-serif: 'Barlow Condensed', sans-serif;
+
+$width-small: 501px;
+$width-medium: 769px;
+$width-large: 1101px;

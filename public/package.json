@@ -1,0 +1,24 @@
+{
+  "name": "hillsdale",
+  "version": "1.0.0",
+  "description": "Hillsdale College Business Club application process website",
+  "main": "index.js",
+  "browserslist": [
+    "> 1%",
+    "last 10 versions"
+  ],
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss --output-style expanded > css/style.css",
+    "prefix:css": "postcss css/style.css -u autoprefixer -o css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "postcss-cli": "^7.1.2"
+  },
+  "dependencies": {
+    "postcss": "^7.0.32"
+  }
+}

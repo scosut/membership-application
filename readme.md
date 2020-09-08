@@ -1,0 +1,3 @@
+# Membership Application
+
+This application improves the method of joining the business club at a college. Original process required student complete application by hand, deliver in&#8209;person to advisor for signature, and deliver in&#8209;person to cashier for handling. New process has visitors complete online application, which is automatically routed to  advisor for approval followed by cashier's office for payment processing. All parties able to track application progress via online dashboards.

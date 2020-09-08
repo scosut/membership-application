@@ -1,0 +1,47 @@
+/* why section styles */
+#why {
+	align-items: center;
+	align-self: center;
+	background: rgba($color-background-primary, 0.8);
+	display: flex;
+	flex-direction: column;
+	margin: 3rem 0;
+	max-width: 32rem;
+	padding: 2rem 1.5rem;
+	
+	@include atSmall {
+		align-self: flex-end;
+		margin: 10%;
+	}
+	
+	h3 {
+		align-self: flex-start;
+		font-size: 2.8rem;
+		line-height: 1;
+	}
+	
+	ul {
+		list-style: none;
+		
+		li {
+			align-items: baseline;
+			display: flex;
+			margin: 1.5rem 0;
+			
+			i {
+				color: rgba($color-text-secondary, 0.9);
+				font-size: 1.5rem;
+				margin-right: 1rem;
+			}
+			
+			span {
+				font-size: 2.2rem;
+			}
+		}
+	}
+	
+	a {
+		font-size: 1.8rem;
+		margin-top: 1rem;
+	}
+}

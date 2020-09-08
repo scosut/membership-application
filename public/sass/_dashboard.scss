@@ -1,0 +1,109 @@
+/* dashboard styles */
+#dashboard {
+	flex-grow: 1;
+	margin: 3rem 0;
+	
+	@include atSmall {
+		margin: 3rem 1.5rem;
+	}
+	
+	@include atMedium {
+		margin: 3rem;
+	}
+	
+	.dashboard-content {
+		background: $color-background-primary;
+		border: $border-primary;
+		font-size: 1.8rem;
+		height: 100%;
+		margin: auto;
+		padding: 1rem;
+		width: 100%;
+		
+		@include atMedium {
+			padding: 2rem;
+		}
+		
+		h3 {
+			font-size: 2.4rem;
+		}
+		
+		.btn-wrapper {
+			display: block;
+			margin-top: 1rem;
+			
+			@include atSmall {
+				display: inline;
+				margin-left: 1rem;
+			}
+		}
+		
+		table {
+			border-collapse: collapse;
+			border-left: $border-tertiary;
+			border-top: $border-tertiary;
+			font-size: 1.6rem;
+			margin-top: 1.5rem;
+			width: 100%;
+			
+			@include atMedium {
+				font-size: 1.8rem;
+			}
+			
+			thead th,
+			tbody td {
+				border-bottom: $border-tertiary;
+				border-right: $border-tertiary;
+				padding: 0.2rem;
+				text-align: left;
+				vertical-align: bottom;
+			}
+			
+			thead {
+				th {
+					&.filter {
+						padding: 0;
+						
+						@include atSmall {
+							padding: 0.2rem;
+						}
+					}
+					
+					select {
+						background: transparent;
+						border: $border-tertiary;
+						border-radius: 0.4rem;
+						font: inherit;
+						width: 100%;
+						
+						&:focus {
+							outline: $border-secondary;
+						}
+					}				
+				}
+			}
+			
+			tbody {
+				tr:nth-child(odd) {
+					background: $color-background-alternate-row;
+				}
+				
+				td {
+					width: 20%;
+					
+					@include atMedium {
+						width: 25%;
+					}
+					
+					&:first-child {
+						width: 40%;
+						
+						@include atMedium {
+							width: 25%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
