@@ -79,6 +79,10 @@
 						&:focus {
 							outline: $border-secondary;
 						}
+						
+						optgroup {
+							font: inherit;
+						}
 					}				
 				}
 			}

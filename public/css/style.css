@@ -550,6 +550,10 @@ h1, h2, h3, h4, h5, h6 {
   outline: 0.1rem solid #61953d;
 }
 
+#dashboard .dashboard-content table thead th select optgroup {
+  font: inherit;
+}
+
 #dashboard .dashboard-content table tbody tr:nth-child(odd) {
   background: #fafafa;
 }
